@@ -1,0 +1,34 @@
+<!doctype html>
+<head>
+<title>CLASSIFY YOUR TEXT!!</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body style="background-color: rgb(202, 149, 80)">
+    <nav class="nav" style="background-color: black; padding-bottom: 25px;padding-top: 25px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+    <h1 style="color: rgb(202, 149, 80); text-align: center;font-size: 70px;">CLASSIFY YOUR TEXT!!</h1>
+    
+    </div></div></nav>
+    <br><br>
+                <h1 style="color: black;text-align:center; font-size: 40px"><i><marquee><u>Text Classification of 20newsgroups dataset using Naive Baeyes</u></marquee></i></h1>
+                <br><br>
+                <h3 style=" color: black; text-align : center ; font-size: 25px">Enter your text here:</h3><br>
+                 <center><form method="POST" action="/value">
+                <table>
+                <tr>
+                <td>
+                <input type="text" name="cont" class="form-control" placeholder="Type in..">
+                </td>
+                </tr>
+                 <tr>
+                <td><br>
+                    <input type="Submit" onclick="getElementById('demo')" style="background-color:black!important; color:rgb(202, 149, 80)!important"name="" value="Submit"  class="btn btn-info btn-block btn-lg">
+                    <p id="demo"><center><b><i>{{category}}{{output}}</i></b></center></p>
+                    </td></tr>
+                </table>
+                </form></center>
+</body>
+
+</html>
